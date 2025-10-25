@@ -1,4 +1,4 @@
-package com.pluralsight.Drills1;
+package com.pluralsight.TempConverterDrill;
 
 public class TemperatureConverter {
 

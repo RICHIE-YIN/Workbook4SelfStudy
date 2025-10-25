@@ -1,4 +1,4 @@
-package com.pluralsight.Drills2;
+package com.pluralsight.GreeterDrill;
 
 public class Greeter {
 

@@ -1,4 +1,4 @@
-package com.pluralsight.Drills1;
+package com.pluralsight.TempConverterDrill;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

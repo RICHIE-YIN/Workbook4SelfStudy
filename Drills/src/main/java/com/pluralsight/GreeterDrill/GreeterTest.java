@@ -1,4 +1,4 @@
-package com.pluralsight.Drills2;
+package com.pluralsight.GreeterDrill;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
