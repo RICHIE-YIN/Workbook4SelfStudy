@@ -1,4 +1,4 @@
-package com.pluralsight.MathHelperDrill;
+package com.pluralsight.PhaseOne_StaticVariablesAndMethods.MathHelperDrill;
 
 public class MathProgram {
     public static void main(String[] args) {

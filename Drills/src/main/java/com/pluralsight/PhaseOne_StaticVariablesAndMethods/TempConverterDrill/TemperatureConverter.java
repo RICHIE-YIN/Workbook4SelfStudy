@@ -1,4 +1,4 @@
-package com.pluralsight.TempConverterDrill;
+package com.pluralsight.PhaseOne_StaticVariablesAndMethods.TempConverterDrill;
 
 public class TemperatureConverter {
 

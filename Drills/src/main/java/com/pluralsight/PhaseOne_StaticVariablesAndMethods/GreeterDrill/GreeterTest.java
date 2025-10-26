@@ -1,4 +1,4 @@
-package com.pluralsight.GreeterDrill;
+package com.pluralsight.PhaseOne_StaticVariablesAndMethods.GreeterDrill;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

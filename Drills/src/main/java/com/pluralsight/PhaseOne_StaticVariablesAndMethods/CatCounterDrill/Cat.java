@@ -1,4 +1,4 @@
-package com.pluralsight.CatCounterDrill;
+package com.pluralsight.PhaseOne_StaticVariablesAndMethods.CatCounterDrill;
 
 public class Cat {
     public static int catCount = 0;

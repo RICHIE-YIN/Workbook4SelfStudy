@@ -1,4 +1,4 @@
-package com.pluralsight.GreeterDrill;
+package com.pluralsight.PhaseOne_StaticVariablesAndMethods.GreeterDrill;
 
 public class Greeter {
 
