@@ -2,10 +2,10 @@
 
 **Goal:**  
 To be 100% ready for your **Dealership Workshop**, which combines:
-- Object-oriented design (classes inside classes)  
-- File I/O (loading inventory from CSVs)  
-- Static methods  
-- ArrayLists  
+- Object-oriented design (classes inside classes)
+- File I/O (loading inventory from CSVs)
+- Static methods
+- ArrayLists
 - CLI menu systems
 
 ---
@@ -331,9 +331,75 @@ public class MenuExample {
 
 ---
 
-### 💬 Recommended Practice Before Workshop
+## 🧱 BONUS PHASE — Practice Blueprints for Mastery
 
-- Add a `shuffle()` method to Deck (`Collections.shuffle(cards)`)
-- Add a `reset()` method that rebuilds the deck.
-- Practice dealing multiple cards and tracking the deck size.
-- Try writing a method in Dealership that filters vehicles by price or make.
+Here are hands-on blueprints to build your OOP intuition without copying full code. Fill in the blanks and create your own methods!
+
+---
+
+### 🏠 Exercise 1 — House + Room
+
+**Goal:** Model a house with multiple rooms.  
+**Blueprint:**
+- `Room`: `name`, `squareFeet`
+- `House`: `ArrayList<Room> rooms`, `addRoom(Room)`, `displayAllRooms()`, `getTotalSquareFeet()`
+
+---
+
+### 💳 Exercise 2 — Bank + Account
+
+**Goal:** Create a bank that holds accounts and allows deposits.  
+**Blueprint:**
+- `Account`: `accountNumber`, `balance`, `deposit(double)`, `withdraw(double)`
+- `Bank`: `ArrayList<Account>`, `addAccount(Account)`, `getAccountByNumber(int)`, `depositToAccount(int, double)`
+
+---
+
+### 🎮 Exercise 3 — Player + Inventory + Item
+
+**Goal:** Practice nesting relationships.  
+**Blueprint:**
+- `Item`: `name`, `value`
+- `Inventory`: `ArrayList<Item>`, `addItem(Item)`, `getTotalValue()`
+- `Player`: `name`, `Inventory`, `pickupItem(Item)`, `showInventory()`
+
+---
+
+### ☕ Exercise 4 — CoffeeShop + Drink + Customer
+
+**Goal:** Work with multiple lists and nested loops.  
+**Blueprint:**
+- `Drink`: `name`, `price`
+- `Customer`: `name`, `ArrayList<Drink> order`
+- `CoffeeShop`: `ArrayList<Customer>`, `calculateTotalSales()`, `findMostExpensiveDrink()`
+
+---
+
+### 🏪 Exercise 5 — Store + Department + Product
+
+**Goal:** Deeply nested relationships (3 layers).  
+**Blueprint:**
+- `Product`: `id`, `name`, `price`
+- `Department`: `name`, `ArrayList<Product>`
+- `Store`: `name`, `ArrayList<Department>`, `findProductByName(String)`
+
+---
+
+## 💬 RECOMMENDED DAILY PLAN (OPTIONAL)
+
+| Day | Exercise | Focus |
+|-----|-----------|--------|
+| 1 | House + Room | “Has-a” relationship |
+| 2 | Bank + Account | Working with IDs and search logic |
+| 3 | Player + Inventory | Nested classes |
+| 4 | CoffeeShop | Multiple objects interacting |
+| 5 | Store | Deep class composition |
+| 6 | Review Deck + Card + Dealership | Compare to new blueprints |
+| 7 | Build your own mini project (anything you love) | Capstone |
+
+---
+
+### ⚡️Remember:
+- Think of **objects as nouns**, **methods as verbs**.
+- When you see `ArrayList<Something>`, picture a **garage** holding those “somethings.”
+- Practice looping, adding, and displaying objects until it feels like second nature.
